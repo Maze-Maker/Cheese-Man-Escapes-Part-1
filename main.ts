@@ -141,7 +141,7 @@ let Chest: Sprite = null
 let Cheese_Man: Sprite = null
 info.startCountdown(75)
 info.setLife(5)
-scene.setBackgroundColor(11)
+scene.setBackgroundColor(10)
 tiles.setCurrentTilemap(tilemap`level1`)
 Cheese_Man = sprites.create(img`
     2 2 2 2 2 2 2 2 2 
